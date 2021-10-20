@@ -3,15 +3,16 @@
 
 #wrap{padding: 60px; position: relative;}
 #wrap:before{content: ''; width: 1px; height: 100%; background: #ddd; position: absolute; left: 5%; 
-    top: 0; z-index: 999999;}
+    top: 0; z-index: 999;}
 #wrap:after{content: ''; width: 1px; height: 100%; background: #ddd; position: absolute; right: 5%; 
-    top: 0; z-index: 999999;}
+    top: 0; z-index: 999;}
 
 
     .popup { background: #999; text-align: center; padding: 10px 0; position: relative; height: 50px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px; position: absolute; left: 50%; top: 0; width: 96%; z-index: 999999999;
+transform: translateX(-50%);}
     .popup a { color: #fff; font-size: 20px; }
-    .popup .popup_close { position: absolute; right: 30px; top: 10px; width: 30px; height: 30px; font-size: 0; background: url('../images/popup_close.png') no-repeat center center; cursor: pointer; }
+    .popup .popup_close { position: absolute; right: 40px; top: 10px; width: 30px; height: 30px; font-size: 0; background: url('../images/popup_close.png') no-repeat center center; cursor: pointer; }
     
 
 /* header */
