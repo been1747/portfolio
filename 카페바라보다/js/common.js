@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    
 
     $('.depth2').hide();
     $('.gnb>li').mouseenter(function(){

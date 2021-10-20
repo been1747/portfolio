@@ -40,6 +40,11 @@ $(document).ready(function(){
     });
 
 
+        //popup
+        $('.popup_close').click(function(){
+            $('.popup').slideUp();
+        });
+
     //메인슬라이드
     $('.slide').slick({
         autoplay: true,

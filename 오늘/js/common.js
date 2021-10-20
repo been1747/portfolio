@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
 
+
+
+
     //스크롤 트리거
 $(window).scroll(function () {
     $('.ani_stop').each(function (i) {
@@ -14,6 +17,10 @@ $(window).scroll(function () {
         }
     });
 });
+
+
+
+
 
     
     //메인슬라이드

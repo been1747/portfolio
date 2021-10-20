@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+.popup { background: #a89079; text-align: center; padding: 10px 0; position: relative; height: 50px; }
+.popup a { color: #fff; font-size: 20px; }
+
 
 #header{position: absolute; left: 50%; transform: translateX(-50%); top: 0; 
     z-index: 999999; width: 100%; padding: 50px; max-width: 1920px;}
